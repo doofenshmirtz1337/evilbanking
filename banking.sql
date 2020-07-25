@@ -76,7 +76,7 @@ ALTER TABLE `activity`
 ALTER TABLE `tbl_users`
   MODIFY `userID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
--- Doofenshmirtz:8X5jV9zUaaNDfZDSdAkwhk
+-- Doofenshmirtz
 INSERT into tbl_users (userName, userEmail, userPass, userStatus, tokenCode) VALUES ("evildoof", "doof@evilcorp.com","232d160d767b645ff07856ccf52a8c93", "Y", "c4ca4238a0b923820dcc509a6f75849b");
 
 
