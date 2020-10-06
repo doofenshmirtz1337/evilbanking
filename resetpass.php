@@ -77,7 +77,7 @@ if(isset($_GET['id']) && isset($_GET['code']))
 			<strong>Hello !</strong>  <?php echo $rows['userName'] ?> you are here to reset your forgetten password.
 		</div>
         <form class="form-signin" method="post">
-        <h3 class="form-signin-heading">Password Reset.</h3><hr />
+        <h3 class="form-signin-heading">Password  Reset.</h3><hr />
         <?php
         if(isset($msg))
 		{
