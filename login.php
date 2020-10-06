@@ -81,7 +81,7 @@ if(isset($_POST['btn-login']))
         <a href="fpass.php">Lost your Password ? </a>
       </form>
 
-    </div> <!-- /container -->
+    </div>  <!-- /container -->
     <?php include("template/misc.php") ?>
   </body>
 </html>
