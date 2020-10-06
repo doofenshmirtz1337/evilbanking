@@ -67,7 +67,7 @@ if(isset($_POST['transfer']))
   </div>
   <div id="topup" class="tab-pane fade">
     <h3>Mobile phone scratch card/service card</h3>
-    <p style="width:50%;">Use your mobile phone scratch card to recharge your account. Please note that there will be a 10% charge for charging using a mobile phone scratch card. </br>
+    <p style="width:50%;">Use your mobile phone  scratch card to recharge your account. Please note that there will be a 10% charge for charging using a mobile phone scratch card. </br>
 We currently support: Viettel, Vinaphone, Mobifone, Vietnammobile, Gate. </p>
  <table class="table table-hover">
     <thead>
