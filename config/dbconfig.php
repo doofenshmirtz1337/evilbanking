@@ -5,7 +5,7 @@ class Database
     private $host = "localhost";
     private $db_name = "evilbanking";
     private $username = "user";
-    private $password = "veryhardtoguesspassword";
+    private $password = "veryhardtoguessword";
     public $conn;
      
     public function dbConnection()
