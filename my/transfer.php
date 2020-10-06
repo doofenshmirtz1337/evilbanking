@@ -43,7 +43,6 @@ if(isset($_POST['transfer']))
 	
    
 ?>
-
 <!DOCTYPE html>
 <html class="no-js">
     
