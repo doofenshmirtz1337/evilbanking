@@ -26,7 +26,8 @@
 class PHPMailerOAuth extends PHPMailer
 {
     /**
-     * The OAuth user's email address
+     * The OAuth user's em
+l address
      * @var string
      */
     public $oauthUserEmail = '';
