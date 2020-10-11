@@ -13,6 +13,8 @@ if($reg_user->is_logged_in()!="")
 }
 
 
+
+
 if(isset($_POST['btn-signup']))
 {
 	$uname = addslashes($_POST['txtuname']);
