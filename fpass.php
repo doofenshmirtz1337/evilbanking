@@ -33,7 +33,7 @@ if(isset($_POST['btn-submit']))
 				   <br /><br />
 				   We got requested to reset your password, if you do this then just click the following link to reset your password, if not just ignore                   this email,
 				   <br /><br />
-				   Click Following Link To Reset Your Password 
+				   Click Following Link To Reset  Your Password 
 				   <br /><br />
 				   <a href='http://localhost/x/resetpass.php?id=$id&code=$code'>click here to reset your password</a>
 				   <br /><br />
