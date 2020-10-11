@@ -21,7 +21,7 @@ class Money
 			$password = md5($pass);
             $sentcash = $ccash - $cash;
 			
-			$stmt = $this->conn->prepare("SELECT * FROM tbl_users WHERE userEmail=:email_id");
+			$stmt = $this->conn->prepare("SELECT * FROM tbl_users WHERE  userEmail=:email_id");
 			$stmt->execute(array(":email_id"=>$recemail));
 			$userRow=$stmt->fetch(PDO::FETCH_ASSOC);
 			echo $userRow['userPass'];
