@@ -1,5 +1,6 @@
 <?php
 require 'config/dbconfig.php';
+
 require_once 'class/class.user.php';
 $user = new USER();
 
@@ -60,7 +61,7 @@ if(isset($_GET['id']) && isset($_GET['code']))
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Confirm Registration</title>
+    <title>Confirm  the Registration</title>
     <!-- Bootstrap -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
